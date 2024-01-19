@@ -1,9 +1,6 @@
-LING 567 Grammar Engineering
-Test Suite
-
-Language: Modern Standard Arabic
-Language code: <Ethnologue language code>
-Lines: <orth orth-seg gloss translit translit-seg translat>1
+Language: Modern_Standard_Arabic
+Language code: arb
+Lines: translit-seg translat gloss
 Author: Benjamin Pong, Michael P. Pollack
 Date: 17/1/2024
 Source a: Ahmed, A. M. T. (2016). Case in Standard Arabic: A dependent case approach.
@@ -29,7 +26,6 @@ hall-a 		l-talib-u 	l-mas2alat-a.
 solved-3.SG.M	the-student-NOM	the-problem-ACC
 ‘The student solved the problem.’
 
-
 #2-SVO word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
 Vetted: s
@@ -48,7 +44,6 @@ al-mas2alat-a	 	hall-a			al-talib-u.
 the-problem-ACC 	solved-3.SG.M	 	the-student-NOM
 ‘It was the problem that the student solved.’
 
-
 #4-SOV word order for transitive clauses with definite NP subjects
 Source: a:29, b:3, Amer Ahmed, Mohammad A. Mohammad, attested
 Vetted: s
@@ -57,7 +52,6 @@ Phenomena: {word order, determiner}
 al-mas2alat-a	 	hall-a			al-talib-u.
 the-problem-ACC 	solved-3.SG.M	 	the-student-nom
 ‘It was the problem that the student solved.’
-
 
 #5-VOS word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
@@ -68,8 +62,6 @@ hall-a 		al-mas2alat-a 		al-talib-u.
 solved-3.SG.M 	the-problem-ACC 	the-student-NOM
 ‘It was the problem that the student solved.’
 
-
-
 #6-OSV word order for transitive clauses with definite NP subjects
 Source: a:29,b:3 Amer Ahmed, Mohammad A. Mohammad, attested
 Vetted: s
@@ -78,7 +70,6 @@ Phenomena: {word order, determiner}
 al-mas2alat-a  		al-talib-u 		hall-a
 the-problem-ACC 	the-student-NOM 	solved-3.SG.M
 ‘The problem, the student, he solved it.’
-
 
 #7-VS word order for intransitive clauses with definite NP subjects
 Source: b:2, Mohammad A. Mohammad, attested
@@ -97,11 +88,6 @@ Phenomena: {word order, determiner}
 al-walad-u		wasal-a	 
 the-boy-NOM		arrived-3.SG.M
 ‘The boy arrived.’
-
-In order to model this, we selected the 'free word order' option in the questionaire to gain coverage of all the possible word orders for basic declarative clauses with full Noun Phrases (i.e definite NPs that co-occur with the determiner 'al'). We also chose sentences where the subject NP is singular.
-The reason for choosing sentences with definite, singular NPs for the above is because definiteness and person features on NPs constraint the word order possibilities. These are documented below. We allowed our grammar to overgenerate for the purpose of this lab, but developed the tests for these below.
-
-As for the first constraint on word order, when the subject is indefinite (indicated by the absence of 'al'), for transitive clauses, the verb must be sentence-initial. All other orders are ungrammatical. On the other hand, for intransitive clauses with indefinite NP subjects, the verb must be sentence-final. 
 
 #9-VSO word order for transitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
@@ -138,7 +124,7 @@ Judgment: u
 Phenomena: {word order, determiner}
 rajul-u 	al-walad-a	qabal-a 		
 man-NOM		the-boy-ACC	met-3.SG.M	
-intended: 'A man met the boy.'
+'A man met the boy.'
 
 #13-OSV word order for transitive clauses with indefinite NP subjects
 Source: b:10, Mohammad A. Mohammad, attested
@@ -147,7 +133,7 @@ Judgment: u
 Phenomena: {word order, determiner}
 al-walad-a 	rajul-u		qabal-a 		
 the-boy-ACC 	man-NOM		met-3.SG.M	
-intended: 'A man met the boy.'
+'A man met the boy.'
 
 
 #14-OVS word order for transitive clauses with indefinite NP subjects
@@ -157,7 +143,7 @@ Judgment: u
 Phenomena: {word order, determiner}
 al-walad-a 	qabal-a 	rajul-u			
 the-boy-ACC 	met-3.SG.M	man-NOM	
-intended: 'A man met the boy.'
+'A man met the boy.'
 
 #15-VS word order for intransitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
@@ -166,7 +152,7 @@ Judgment: u
 Phenomena: {word order, determiner}
 walad-u 	qadim-a 			
 boy-NOM 	came-3.SG.M	
-intended: 'A boy came.'
+'A boy came.'
 
 #16-SV word order for intransitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
@@ -219,7 +205,6 @@ wasal-a	 		    al-walad-a
 arrived-3sg.m		the-boy-acc
 intended:‘The boy arrived.’
 
-
 #-OVS, O-nom, V-pronoun
 Source: a:28, Ahmer, attested
 Vetted: s
@@ -236,7 +221,7 @@ Judgment: u
 Phenomena: {case, word order, pronouns}
 al-mas2alat-a 		hall-a-haa  		al-talib-u.
 the-problem-acc 	solved-3.sg.m-it	the-student-nom
-intended: ‘As for the problem, the student solved it.’
+‘As for the problem, the student solved it.’
 
 #-OVS, O-nom, V
 Source: a:28, Ahmer, attested
@@ -245,8 +230,7 @@ Judgment: u
 Phenomena: {case, word order, pronouns}
 al-mas2alat-u 		hall-a       		al-talib-u.
 the-problem-nom 	solved-3.sg.m   	the-student-nom
-intended: ‘As for the problem, the student solved it.’
-
+‘As for the problem, the student solved it.’
 
 #-OVS, O-nom, V-wrong pronouns
 
@@ -266,7 +250,7 @@ Judgment: u
 Phenomena: {case, word order, pronouns}
 al-mas2alat-a  	    al-talib-u 	        hall-a-haa
 the-problem-acc 	the-student-nom 	solved-3.m.sg-it
-intended: ‘The problem, the student, he solved it.’
+‘The problem, the student, he solved it.’
 
 # OSV, O-nom, V
 Source: a:28, Ahmer, attested
@@ -275,6 +259,6 @@ Judgment: u
 Phenomena: {case, word order, pronouns}
 al-mas2alat-u 	al-talib-u 	        hall-a
 the-problem-u 	the-student-nom 	solved-3.m.sg
-intended: ‘The problem, the student, he solved it.’
+‘The problem, the student, he solved it.’
 
 # OSV, O-nom, V-wrongpronouns
