@@ -5,6 +5,7 @@ Author: Benjamin Pong, Michael P. Pollack
 Date: 17/1/2024
 Source a: Ahmed, A. M. T. (2016). Case in Standard Arabic: A dependent case approach.
 Source b: Mohammad, M. A. (2000). Word order, agreement and pronominalization in Standard and Palestinian Arabic. Word Order, Agreement and Pronominalization in Standard and Palestinian Arabic, 1-213.
+Source c: Alonini, T. M. (2023). Unaccusative verbs in Modern Standard Arabic. Saudi Journal of Language Studies, 3(1), 47-58.
 
 #1-VS0 word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
@@ -31,6 +32,15 @@ Judgment: g
 Phenomena: {word order, determiner}
 al-mas2alat-a	 	hall-a			al-talib-u.
 the-problem-ACC 	solved-3.SG.M	 	the-student-NOM
+‘It was the problem that the student solved.’
+
+#4-SOV word order for transitive clauses with definite NP subjects
+Source: a:29, b:3, Amer Ahmed, Mohammad A. Mohammad, attested
+Vetted: s
+Judgment: g
+Phenomena: {word order, determiner}
+al-talib-u al-mas2alat-a	 	hall-a.
+the-student-nom the-problem-ACC 	solved-3.SG.M
 'It was the problem that the student solved.'
 
 #5-VOS word order for transitive clauses with definite NP subjects
@@ -50,6 +60,7 @@ Phenomena: {word order, determiner}
 al-mas2alat-a  		al-talib-u 		hall-a
 the-problem-ACC 	the-student-NOM 	solved-3.SG.M
 'The problem, the student, he solved it.'
+
 
 #7-VS word order for intransitive clauses with definite NP subjects
 Source: b:2, Mohammad A. Mohammad, attested
@@ -142,16 +153,6 @@ Phenomena: {word order, determiner}
 qadim-a 	walad-u 		
  came-3.SG.M	boy-NOM	
 'A boy came.'
-
-######Pronouns##########
-#16-SV word order for intransitive clauses with indefinite NP subjects
-Source: b:9, Mohammad A. Mohammad, attested
-Vetted: s
-Judgment: g
-Phenomena: {pronouns}
-tarab-aha al-kalb 		
-chase-3.SG.F the-dog
-'The dog chased her'
 
 #####Case############################
 
