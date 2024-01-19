@@ -5,6 +5,7 @@ Author: Benjamin Pong, Michael P. Pollack
 Date: 17/1/2024
 Source a: Ahmed, A. M. T. (2016). Case in Standard Arabic: A dependent case approach.
 Source b: Mohammad, M. A. (2000). Word order, agreement and pronominalization in Standard and Palestinian Arabic. Word Order, Agreement and Pronominalization in Standard and Palestinian Arabic, 1-213.
+Source c: Alonini, T. M. (2023). Unaccusative verbs in Modern Standard Arabic. Saudi Journal of Language Studies, 3(1), 47-58.
 
 #Ex number and optional comment
 Source: {a:page, b:page, author, elicited, attested}
@@ -22,7 +23,7 @@ Source: a:29, Amer Ahmed, attested
 Vetted: s
 Judgment: g
 Phenomena: {word order, determiner}
-hall-a 		l-talib-u 	l-mas2alat-a.
+hall-a 		al-talib-u 	al-mas2alat-a.
 solved-3.SG.M	the-student-NOM	the-problem-ACC
 ‘The student solved the problem.’
 
@@ -262,3 +263,205 @@ the-problem-u 	the-student-nom 	solved-3.m.sg
 ‘The problem, the student, he solved it.’
 
 # OSV, O-nom, V-wrongpronouns
+
+
+
+
+###matrix wh-questions#######
+
+#Q-V-NP
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, word order}
+man     qara2-a 		    al-kitab-a
+who	    read-3.sg.masc. 	the book-acc.
+‘Who read the book?’
+
+#V-Q-NP
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+qara2-a 		man	    al-kitab-a
+read-3.sg.masc. who	    the-book-acc.
+intended: ‘Who read the book?’
+
+#V-NP-Q
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+qara2-a 		al-kitab-a 	    man
+read-3.sg.masc 	the-book-acc.	who
+intended: ‘Who read the book?
+
+#Q-NP-V
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+man  	al-kitab-a 	    qara2-a
+who  	the-book-acc	read-3.sg.masc
+intended: ‘Who read the book?
+
+#NP-Q-V
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+al-kitab-a      man  	qara2-a
+the-book-acc    who  	read-3.sg.masc
+intended: ‘Who read the book?
+
+#NP-V-Q
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+al-kitab-a      qara2-a         man
+the-book-acc    read-3.sg.masc  who
+intended: ‘Who read the book?
+
+#Qwhat-V-NP
+Source: b:44, Mohammad, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, word order}
+madha    qara2-a 		    al-walad-u
+what	 read-3.sg.masc. 	the-boy-nom.
+‘What did the boy read?’
+
+#V-Qwhat-NP
+Source: b:44, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+qara2-a 		madha	    al-walad-u
+read-3.sg.masc. what	    the-boy-nom.
+‘What did the boy read?’
+
+#V-NP-Qwhat
+Source: b:44, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+qara2-a 		al-walad-u 	    madha
+read-3.sg.masc 	the-boy-nom	    what
+‘What did the boy read?’
+
+#Qwhat-NP-V
+Source: b:44, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+madha  	al-walad-u 	    qara2-a
+what  	the-boy-nom	    read-3.sg.masc
+‘What did the boy read?’
+
+#NP-Qwhat-V
+Source: b:44, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+al-walad-u      madha  	qara2-a
+the-boy-nom	    what  	read-3.sg.masc
+‘What did the boy read?’
+
+#NP-V-Qwhat
+Source: b:44, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, word order}
+al-walad-u     qara2-a         madha
+the-boy-nom    read-3.sg.masc  what
+‘What did the boy read?’
+
+#Q-V (intransitive)
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, word order}
+man             wasal-a	 		    
+who             arrived-3sg.m
+‘Who arrived?’
+
+#V-Q (intransitive)
+Source: m:12, M.A Btoosh, attested
+Vetted: s
+Judgment: u
+wasal-a	 		    man
+arrived-3sg.m		who
+intended: ‘Who arrived?’
+
+#Yes/NoQ
+Source: m:10, M.A Btoosh, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, word order}
+hal 	namat		    al-bint-u 
+Q-did 	slept-3.sg.f 	the girl-nom.
+‘Did the girl sleep?’
+
+#Yes/NoQ
+Source: m:10, M.A Btoosh, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, word order}
+2a	    namat		    al-bint-u 
+Q-did 	slept-3.sg.f 	the girl-nom.
+‘Did the girl sleep?’
+
+#Yes/NoQ negation
+Source: b:35, Mohammad, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, negation}
+2a       	lam 	namat		    al-bint-u 	
+Q-did		not	    slept-3.sg.f 	the girl-nom.
+Didn’t the girl sleep?	
+
+
+#Yes/NoQ negation
+Source: b:35, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions, negation}
+hal 	    lam 	namat		    al-bint-u 	
+Q-did		not	    slept-3.sg.f 	the girl-nom.
+Didn’t the girl sleep?	
+
+#Yes/NoQ, definite NP, Q-NP-V
+Source: b:35, Mohammad, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, determiner}
+hal      	al-walad-u  		qadim-a
+Q-did		the-boy.3.sg.m-nom	came-3sg.m
+Did the boy come?
+
+#Yes/NoQ, definite NP, Q-NP-V
+Source: b:35, Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {wh questions,  determiner}
+2a 	        walad-u  		qadim-a
+Q-did		boy.3.sg.m-nom	came-3sg.m
+intended: Did the boy come?
+
+#Yes/NoQ, definiteness
+Source: b:35, Mohammad, attested
+Vetted: s
+Judgment: g
+Phenomena: {wh questions, determiner}
+2a      	walad-u  		qadim-a
+Q-did		boy.3.sg.m-nom	came-3sg.m
+Did a boy come?
+
+#Yes/NoQ, definiteness
+Source: b:35, Mohammad, attested
+Vetted: s
+Judgment: u
+2a 		    al-walad-u  		qadim-a
+Q-did		the-boy.3.sg.m-nom	came-3sg.m
+intended: Did a boy come?
