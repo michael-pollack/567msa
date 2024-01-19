@@ -57,7 +57,7 @@ import argparse
 blessed_line_names = [ 'orth','translit','orth-seg','translit-seg',
                        'gloss','translat' ]
 
-default_line_map = { 'i-input':'orth', 'i-comment': ['gloss','translat']  }
+default_line_map = { 'i-input':'translit-seg', 'i-comment': ['gloss','translat']  }
 check_lines = [ 'gloss' ]  
 
 ## keys for tsdb fields
@@ -199,7 +199,7 @@ def read_headers(tslines):
       sys.exit(1)
     elif l.endswith('-seg'):
       check_lines.append(l)
-
+      print(check_lines)
   return headers
 
 def parse_items(tslines, headers):
