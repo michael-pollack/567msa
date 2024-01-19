@@ -1,31 +1,20 @@
 Language: Modern_Standard_Arabic
 Language code: arb
-Lines: translit-seg translat gloss
+Lines: translit-seg gloss translat
 Author: Benjamin Pong, Michael P. Pollack
 Date: 17/1/2024
 Source a: Ahmed, A. M. T. (2016). Case in Standard Arabic: A dependent case approach.
 Source b: Mohammad, M. A. (2000). Word order, agreement and pronominalization in Standard and Palestinian Arabic. Word Order, Agreement and Pronominalization in Standard and Palestinian Arabic, 1-213.
 Source c: Alonini, T. M. (2023). Unaccusative verbs in Modern Standard Arabic. Saudi Journal of Language Studies, 3(1), 47-58.
 
-#Ex number and optional comment
-Source: {a:page, b:page, author, elicited, attested}
-Vetted: {t, f, s}
-Judgment: {g, u}
-Phenomena: {word order, case, agreement, ...}
-<Example in standard orthography> (one of this and transliteration is required; including both is okay)
-<Example in transliteration> (one of this and standard orthography is required; including both is okay)
-<Example with morpheme boundaries noted and morpheme forms regularized>
-<Morpheme-by-morpheme glosses>
-<Free translation>
-
 #1-VS0 word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
 Vetted: s
 Judgment: g
 Phenomena: {word order, determiner}
-hall-a 		al-talib-u 	al-mas2alat-a.
+hall-a 		l-talib-u 	l-mas2alat-a.
 solved-3.SG.M	the-student-NOM	the-problem-ACC
-‘The student solved the problem.’
+'The student solved the problem.'
 
 #2-SVO word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
@@ -34,7 +23,7 @@ Judgment: g
 Phenomena: {word order, determiner}
 l-talib-u 	hall-a 		l-mas2alat-a.
 the-student-NOM	 solved-3.SG.M 	the-problem-ACC
-‘The student solved the problem’	
+'The student solved the problem'
 
 #3-OVS word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
@@ -50,9 +39,9 @@ Source: a:29, b:3, Amer Ahmed, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: g
 Phenomena: {word order, determiner}
-al-mas2alat-a	 	hall-a			al-talib-u.
-the-problem-ACC 	solved-3.SG.M	 	the-student-nom
-‘It was the problem that the student solved.’
+al-talib-u al-mas2alat-a	 	hall-a.
+the-student-nom the-problem-ACC 	solved-3.SG.M
+'It was the problem that the student solved.'
 
 #5-VOS word order for transitive clauses with definite NP subjects
 Source: a:29, Amer Ahmed, attested
@@ -61,7 +50,7 @@ Judgment: g
 Phenomena: {word order, determiner}
 hall-a 		al-mas2alat-a 		al-talib-u.
 solved-3.SG.M 	the-problem-ACC 	the-student-NOM
-‘It was the problem that the student solved.’
+'It was the problem that the student solved.'
 
 #6-OSV word order for transitive clauses with definite NP subjects
 Source: a:29,b:3 Amer Ahmed, Mohammad A. Mohammad, attested
@@ -70,7 +59,8 @@ Judgment: g
 Phenomena: {word order, determiner}
 al-mas2alat-a  		al-talib-u 		hall-a
 the-problem-ACC 	the-student-NOM 	solved-3.SG.M
-‘The problem, the student, he solved it.’
+'The problem, the student, he solved it.'
+
 
 #7-VS word order for intransitive clauses with definite NP subjects
 Source: b:2, Mohammad A. Mohammad, attested
@@ -79,7 +69,7 @@ Judgment: g
 Phenomena: {word order, determiner}
 wasal-a	 		al-walad-u
 arrived-3.SG.M		the-boy-NOM
-‘The boy arrived.’
+'The boy arrived.'
 
 #8-SV word order for intransitive clauses with definite NP subjects
 Source: b:2, Mohammad A. Mohammad, attested
@@ -88,7 +78,7 @@ Judgment: g
 Phenomena: {word order, determiner}
 al-walad-u		wasal-a	 
 the-boy-NOM		arrived-3.SG.M
-‘The boy arrived.’
+'The boy arrived.'
 
 #9-VSO word order for transitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
@@ -115,7 +105,7 @@ Judgment: u
 Phenomena: {word order, determiner}
 rajul-u 	qabal-a 	al-walad-a	
 man-NOM		met-3.sg.m	the-boy-ACC	
-intended:'A man met the boy.'
+'A man met the boy.'
 
 
 #12-SOV word order for transitive clauses with indefinite NP subjects
@@ -164,9 +154,6 @@ qadim-a 	walad-u
  came-3.SG.M	boy-NOM	
 'A boy came.'
 
-######Pronouns##########
-
-
 #####Case############################
 
 #-case (basic transitive clauses)
@@ -176,7 +163,7 @@ Judgment: g
 Phenomena: {case}
 gabal-a	 	    al-walad-u      		al-arnab-a
 met-3sg.m		the-boy-nom         	the-rabbit-acc
-‘The boy met the rabbit.'
+'The boy met the rabbit.'
 
 
 #-case (basic transitive clause)
@@ -185,8 +172,8 @@ Vetted: s
 Judgment: u
 Phenomena: {case}
 gabala-a	 	al-walad-a			al-arnab-u
-met-3sg.m		the-boy-acc	        rabbit-nom
-intended:‘The boy met the rabbit.'
+met-3sg.m		the-boy-acc	        the-rabbit-nom
+'The rabbit met the boy.'
 
 #-case (basic intransitive clause)
 Source: c:2, Alonini, attested
@@ -195,7 +182,7 @@ Judgment: g
 Phenomena: {case}
 wasal-a	 		    al-walad-u
 arrived-3sg.m		the-boy-nom
-‘The boy arrived.’
+'The boy arrived.'
 
 #-case (basic intransitive clause)
 Source: c:2, Alonini, attested
@@ -204,264 +191,4 @@ Judgment: u
 Phenomena: {case}
 wasal-a	 		    al-walad-a
 arrived-3sg.m		the-boy-acc
-intended:‘The boy arrived.’
-
-#-OVS, O-nom, V-pronoun
-Source: a:28, Ahmer, attested
-Vetted: s
-Judgment: g
-Phenomena: {case, word order, pronouns}
-al-mas2alat-u 		hall-a-haa  		al-talib-u.
-the-problem-nom 	solved-3.sg.m-it	the-student-nom
-‘As for the problem, the student solved it.’
-
-#-OVS, O-acc, V-pronoun
-Source: a:28, Ahmer, attested
-Vetted: s
-Judgment: u
-Phenomena: {case, word order, pronouns}
-al-mas2alat-a 		hall-a-haa  		al-talib-u.
-the-problem-acc 	solved-3.sg.m-it	the-student-nom
-‘As for the problem, the student solved it.’
-
-#-OVS, O-nom, V
-Source: a:28, Ahmer, attested
-Vetted: s
-Judgment: u
-Phenomena: {case, word order, pronouns}
-al-mas2alat-u 		hall-a       		al-talib-u.
-the-problem-nom 	solved-3.sg.m   	the-student-nom
-‘As for the problem, the student solved it.’
-
-#-OVS, O-nom, V-wrong pronouns
-
-# OSV, O-nom, V-pronoun
-Source: a:28, Ahmer, attested
-Vetted: s
-Judgment: g
-Phenomena: {case, word order, pronouns}
-al-mas2alat-u  	    al-talib-u 	        hall-a-haa
-the-problem-nom 	the-student-nom 	solved-3.m.sg-it
-‘The problem, the student, he solved it.’
-
-# OSV, O-acc, V-pronoun
-Source: a:28, Ahmer, attested
-Vetted: s
-Judgment: u
-Phenomena: {case, word order, pronouns}
-al-mas2alat-a  	    al-talib-u 	        hall-a-haa
-the-problem-acc 	the-student-nom 	solved-3.m.sg-it
-‘The problem, the student, he solved it.’
-
-# OSV, O-nom, V
-Source: a:28, Ahmer, attested
-Vetted: s
-Judgment: u
-Phenomena: {case, word order, pronouns}
-al-mas2alat-u 	al-talib-u 	        hall-a
-the-problem-u 	the-student-nom 	solved-3.m.sg
-‘The problem, the student, he solved it.’
-
-# OSV, O-nom, V-wrongpronouns
-
-
-
-
-###matrix wh-questions#######
-
-#Q-V-NP
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, word order}
-man     qara2-a 		    al-kitab-a
-who	    read-3.sg.masc. 	the book-acc.
-‘Who read the book?’
-
-#V-Q-NP
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-qara2-a 		man	    al-kitab-a
-read-3.sg.masc. who	    the-book-acc.
-intended: ‘Who read the book?’
-
-#V-NP-Q
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-qara2-a 		al-kitab-a 	    man
-read-3.sg.masc 	the-book-acc.	who
-intended: ‘Who read the book?
-
-#Q-NP-V
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-man  	al-kitab-a 	    qara2-a
-who  	the-book-acc	read-3.sg.masc
-intended: ‘Who read the book?
-
-#NP-Q-V
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-al-kitab-a      man  	qara2-a
-the-book-acc    who  	read-3.sg.masc
-intended: ‘Who read the book?
-
-#NP-V-Q
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-al-kitab-a      qara2-a         man
-the-book-acc    read-3.sg.masc  who
-intended: ‘Who read the book?
-
-#Qwhat-V-NP
-Source: b:44, Mohammad, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, word order}
-madha    qara2-a 		    al-walad-u
-what	 read-3.sg.masc. 	the-boy-nom.
-‘What did the boy read?’
-
-#V-Qwhat-NP
-Source: b:44, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-qara2-a 		madha	    al-walad-u
-read-3.sg.masc. what	    the-boy-nom.
-‘What did the boy read?’
-
-#V-NP-Qwhat
-Source: b:44, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-qara2-a 		al-walad-u 	    madha
-read-3.sg.masc 	the-boy-nom	    what
-‘What did the boy read?’
-
-#Qwhat-NP-V
-Source: b:44, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-madha  	al-walad-u 	    qara2-a
-what  	the-boy-nom	    read-3.sg.masc
-‘What did the boy read?’
-
-#NP-Qwhat-V
-Source: b:44, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-al-walad-u      madha  	qara2-a
-the-boy-nom	    what  	read-3.sg.masc
-‘What did the boy read?’
-
-#NP-V-Qwhat
-Source: b:44, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, word order}
-al-walad-u     qara2-a         madha
-the-boy-nom    read-3.sg.masc  what
-‘What did the boy read?’
-
-#Q-V (intransitive)
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, word order}
-man             wasal-a	 		    
-who             arrived-3sg.m
-‘Who arrived?’
-
-#V-Q (intransitive)
-Source: m:12, M.A Btoosh, attested
-Vetted: s
-Judgment: u
-wasal-a	 		    man
-arrived-3sg.m		who
-intended: ‘Who arrived?’
-
-#Yes/NoQ
-Source: m:10, M.A Btoosh, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, word order}
-hal 	namat		    al-bint-u 
-Q-did 	slept-3.sg.f 	the girl-nom.
-‘Did the girl sleep?’
-
-#Yes/NoQ
-Source: m:10, M.A Btoosh, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, word order}
-2a	    namat		    al-bint-u 
-Q-did 	slept-3.sg.f 	the girl-nom.
-‘Did the girl sleep?’
-
-#Yes/NoQ negation
-Source: b:35, Mohammad, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, negation}
-2a       	lam 	namat		    al-bint-u 	
-Q-did		not	    slept-3.sg.f 	the girl-nom.
-Didn’t the girl sleep?	
-
-
-#Yes/NoQ negation
-Source: b:35, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions, negation}
-hal 	    lam 	namat		    al-bint-u 	
-Q-did		not	    slept-3.sg.f 	the girl-nom.
-Didn’t the girl sleep?	
-
-#Yes/NoQ, definite NP, Q-NP-V
-Source: b:35, Mohammad, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, determiner}
-hal      	al-walad-u  		qadim-a
-Q-did		the-boy.3.sg.m-nom	came-3sg.m
-Did the boy come?
-
-#Yes/NoQ, definite NP, Q-NP-V
-Source: b:35, Mohammad, attested
-Vetted: s
-Judgment: u
-Phenomena: {wh questions,  determiner}
-2a 	        walad-u  		qadim-a
-Q-did		boy.3.sg.m-nom	came-3sg.m
-intended: Did the boy come?
-
-#Yes/NoQ, definiteness
-Source: b:35, Mohammad, attested
-Vetted: s
-Judgment: g
-Phenomena: {wh questions, determiner}
-2a      	walad-u  		qadim-a
-Q-did		boy.3.sg.m-nom	came-3sg.m
-Did a boy come?
-
-#Yes/NoQ, definiteness
-Source: b:35, Mohammad, attested
-Vetted: s
-Judgment: u
-2a 		    al-walad-u  		qadim-a
-Q-did		the-boy.3.sg.m-nom	came-3sg.m
-intended: Did a boy come?
+'The boy arrived.'
