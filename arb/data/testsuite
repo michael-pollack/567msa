@@ -93,19 +93,19 @@ Source: b:9, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: g 
 Phenomena: {word order, determiner}
-qabala 	rajulu 	alwalada
-qabal-a 	rajul-u 	al-walad-a
-met-3.SG.M	man-NOM		the-boy-ACC
-'A man met the boy.'
+qabala 	rajulu 	walada
+qabal-a 	rajul-u 	walad-a
+met-3.SG.M	man-NOM		boy-ACC
+'A man met a boy.'
 
 #10-VOS word order for transitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: g 
 Phenomena: {word order, determiner}
-qabala 	alwalada	rajulu 
-qabal-a 	al-walad-a	rajul-u 
-met-3.SG.M	the-boy-ACC	man-NOM
+qabala 	walada	rajulu 
+qabal-a 	walad-a	rajul-u 
+met-3.SG.M	boy-ACC	man-NOM
 'A man met the boy.'
 
 #11-SVO word order for transitive clauses with indefinite NP subjects
@@ -113,10 +113,10 @@ Source: b:9, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: u
 Phenomena: {word order, determiner}
-rajulu 	    qabala 	    alwalada
-rajul-u 	qabal-a 	al-walad-a	
-man-NOM		met-3.sg.m	the-boy-ACC	
-'A man met the boy.'
+rajulu 	    qabala 	    walada
+rajul-u 	qabal-a 	walad-a	
+man-NOM		met-3.sg.m	boy-ACC	
+'A man met a boy.'
 
 
 #12-SOV word order for transitive clauses with indefinite NP subjects
@@ -124,20 +124,20 @@ Source: b:10, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: u
 Phenomena: {word order, determiner}
-rajulu 	    alwalada	qabala 
-rajul-u 	al-walad-a	qabal-a 		
-man-NOM		the-boy-ACC	met-3.SG.M	
-'A man met the boy.'
+rajulu 	    walada	qabala 
+rajul-u 	walad-a	qabal-a 		
+man-NOM		boy-ACC	met-3.SG.M	
+'A man met a boy.'
 
 #13-OSV word order for transitive clauses with indefinite NP subjects
 Source: b:10, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: u
 Phenomena: {word order, determiner}
-alwalada 	rajulu		qabala 
-al-walad-a 	rajul-u		qabal-a 		
-the-boy-ACC 	man-NOM		met-3.SG.M	
-'A man met the boy.'
+walada 	rajulu		qabala 
+walad-a 	rajul-u		qabal-a 		
+boy-ACC man-NOM		met-3.SG.M	
+'A man met a boy.'
 
 
 #14-OVS word order for transitive clauses with indefinite NP subjects
@@ -145,25 +145,25 @@ Source: b:10, Mohammad A. Mohammad, attested
 Vetted: s
 Judgment: u
 Phenomena: {word order, determiner}
-alwalada 	qabala 	    rajul-u	
-al-walad-a 	qabal-a 	rajul-u			
-the-boy-ACC 	met-3.SG.M	man-NOM	
-'A man met the boy.'
+walada 	    qabala 	    rajul-u	
+walad-a 	qabal-a 	rajul-u			
+boy-ACC 	met-3.SG.M	man-NOM	
+'A man met a boy.'
 
-#15-VS word order for intransitive clauses with indefinite NP subjects
+#15-SV word order for intransitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
 Vetted: s
-Judgment: u
+Judgment: g
 Phenomena: {word order, determiner}
 waladu 	    qadima 
 walad-u 	qadim-a 			
 boy-NOM 	came-3.SG.M	
 'A boy came.'
 
-#16-SV word order for intransitive clauses with indefinite NP subjects
+#16-VS word order for intransitive clauses with indefinite NP subjects
 Source: b:9, Mohammad A. Mohammad, attested
 Vetted: s
-Judgment: g
+Judgment: u
 Phenomena: {word order, determiner}
 qadima 	    waladu 
 qadim-a 	walad-u 		
@@ -182,6 +182,16 @@ qabal-a	 	    al-walad-u      	al-arnab-a
 met-3sg.m		the-boy-nom         the-rabbit-acc
 'The boy met the rabbit.'
 
+#17-case (basic transitive clauses) indefinite NPs, V must be sentence-initial
+Source: b:7, Mohammad A. Mohammad, attested
+Vetted: s
+Judgment: g
+Phenomena: {case}
+qabala	 	    waladu      	arnaba
+qabal-a	 	    walad-u      	arnab-a
+met-3sg.m		the-boy-nom     the-rabbit-acc
+'A boy met a rabbit.'
+
 
 #18-case (basic transitive clause)
 Source: b:7, Mohammad A. Mohammad, attested
@@ -191,7 +201,17 @@ Phenomena: {case}
 qabala	 	    alwalada			alarnabu
 qabala-a	 	al-walad-a			al-arnab-u
 met-3sg.m		the-boy-acc	        the-rabbit-nom
-'The rabbit met the boy.'
+'The boy met the rabbit.'
+
+#18-case (basic transitive clause) - indefinite NPs
+Source: b:7, Mohammad A. Mohammad, attested
+Vetted: s
+Judgment: u
+Phenomena: {case}
+qabala	 	    walada			arnabu
+qabala-a	 	walad-a			arnab-u
+met-3sg.m		boy-acc	        rabbit-nom
+'A boy met the rabbit.'
 
 #19-case (basic intransitive clause)
 Source: c:2, Alonini, attested
@@ -203,6 +223,7 @@ wasal-a	 		    al-walad-u
 arrived-3sg.m		the-boy-nom
 'The boy arrived.'
 
+
 #20-case (basic intransitive clause)
 Source: c:2, Alonini, attested
 Vetted: s
@@ -212,3 +233,24 @@ wasala	 		    alwalada
 wasal-a	 		    al-walad-a
 arrived-3sg.m		the-boy-acc
 'The boy arrived.'
+
+
+#19-case (basic intransitive clause) - indefinite NPs
+Source: c:2, Alonini, attested
+Vetted: s
+Judgment: g
+Phenomena: {case}
+waladu      wasala	 
+walad-u     wasal-a	 
+boy-nom     arrived-3sg.m		
+'A boy arrived.'
+
+#21-case (basic intransitive clause) - indefinite NPs
+Source: c:2, Alonini, attested
+Vetted: s
+Judgment: g
+Phenomena: {case}
+walada      wasala	 
+walad-a     wasal-a	 
+boy-ACC     arrived-3sg.m		
+'A boy arrived.'
