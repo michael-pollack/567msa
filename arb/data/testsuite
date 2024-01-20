@@ -1,6 +1,6 @@
 Language: Modern_Standard_Arabic
 Language code: arb
-Lines: translit-seg gloss translat
+Lines: translit translit-seg gloss translat
 Author: Benjamin Pong, Michael P. Pollack
 Date: 17/1/2024
 Source a: Ahmed, A. M. T. (2016). Case in Standard Arabic: A dependent case approach.
@@ -189,7 +189,7 @@ Judgment: g
 Phenomena: {case}
 qabala	 	    waladu      	arnaba
 qabal-a	 	    walad-u      	arnab-a
-met-3sg.m		the-boy-nom     the-rabbit-acc
+met-3sg.m		boy-nom     rabbit-acc
 'A boy met a rabbit.'
 
 
